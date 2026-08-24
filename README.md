@@ -300,3 +300,67 @@
     </tr>
   </tbody>
 </table>
+<table style="width: 100%; border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr>
+      <th style="border: 1px solid #ccc; padding: 10px;">Control Type</th>
+      <th style="border: 1px solid #ccc; padding: 10px;">Advantages</th>
+      <th style="border: 1px solid #ccc; padding: 10px;">Disadvantages</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px;">
+        <strong>Full-Wave Control</strong>
+      </td>
+      <td style="border: 1px solid #ccc; padding: 10px;">
+        Simple implementation.<br>
+        Low switching losses.
+      </td>
+      <td style="border: 1px solid #ccc; padding: 10px;">
+        High low-frequency harmonics, making filtering difficult.<br>
+        The amplitude of the fundamental voltage and current cannot be controlled.
+      </td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px;">
+        <strong>Phase-Shifted Full-Wave Control</strong>
+      </td>
+      <td style="border: 1px solid #ccc; padding: 10px;">
+        Allows specific harmonics to be eliminated depending on the selected phase-shift angle.<br>
+        Better control of the fundamental voltage and current.
+      </td>
+      <td style="border: 1px solid #ccc; padding: 10px;">
+        Low switching frequency results in reduced switching losses but strong harmonic coupling.<br>
+        The 4th harmonic is particularly high, resulting in significant distortion.
+      </td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px;">
+        <strong>Two-Level Pulse-Width Modulation (PWM)</strong>
+      </td>
+      <td style="border: 1px solid #ccc; padding: 10px;">
+        Significant reduction of low-frequency harmonics.<br>
+        Improved waveform quality.
+      </td>
+      <td style="border: 1px solid #ccc; padding: 10px;">
+        Higher switching losses due to the high switching frequency.<br>
+        Requires more sophisticated control.
+      </td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px;">
+        <strong>Three-Level Pulse-Width Modulation (PWM)</strong>
+      </td>
+      <td style="border: 1px solid #ccc; padding: 10px;">
+        Better waveform quality compared to two-level PWM.<br>
+        Harmonics are shifted to higher frequencies, making filtering easier.<br>
+        Reduced stress on semiconductor devices due to intermediate voltage levels.
+      </td>
+      <td style="border: 1px solid #ccc; padding: 10px;">
+        Increased control and electronic circuit complexity.<br>
+        Switching losses remain high due to the high switching frequency.
+      </td>
+    </tr>
+  </tbody>
+</table>
