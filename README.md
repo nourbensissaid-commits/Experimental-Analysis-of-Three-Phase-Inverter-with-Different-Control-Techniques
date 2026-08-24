@@ -37,12 +37,10 @@
 </ul>
 <h2>Theoretical Background</h2>
 <h3>Three-Phase Inverter Configuration</h3>
-
 <p>
   The basic bridge structure consists of three legs. Each leg is composed of
   two switches that are reversible in both current and voltage:
 </p>
-
 <div style="text-align: center;">
   <img src="image46.png" alt="Three-phase bridge configuration" style="width: 100%; height: auto;">
 </div>
