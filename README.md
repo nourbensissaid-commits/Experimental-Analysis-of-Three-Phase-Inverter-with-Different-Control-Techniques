@@ -45,23 +45,33 @@
   <tbody>
     <tr>
       <td>DC Voltage Source</td>
-      <td><img src="image35.jpg" alt="DC Voltage Source"></td>
+      <td>
+        <img src="image35.jpg" alt="DC Voltage Source" width="150">
+      </td>
     </tr>
     <tr>
       <td>Driver and Arduino Uno Board</td>
-      <td><img src="image99.jpg" alt="Driver and Arduino Uno Board"></td>
+      <td>
+        <img src="image99.jpg" alt="Driver and Arduino Uno Board" width="150">
+      </td>
     </tr>
     <tr>
       <td>Inverter Setup</td>
-      <td><img src="image72.jpg" alt="Inverter Setup"></td>
+      <td>
+        <img src="image72.jpg" alt="Inverter Setup" width="150">
+      </td>
     </tr>
     <tr>
       <td>RL Load</td>
-      <td><img src="image92.jpg" alt="RL Load"></td>
+      <td>
+        <img src="image92.jpg" alt="RL Load" width="150">
+      </td>
     </tr>
     <tr>
       <td>Oscilloscope</td>
-      <td><img src="image83.jpg" alt="Oscilloscope"></td>
+      <td>
+        <img src="image83.jpg" alt="Oscilloscope" width="150">
+      </td>
     </tr>
   </tbody>
 </table>
