@@ -35,8 +35,8 @@
     <strong>performance of the inverter system</strong>.
   </li>
 </ul>
-<h3>Theoretical Background</h3>
-<h4>Three-Phase Inverter Configuration</h4>
+<h2>Theoretical Background</h2>
+<h3>Three-Phase Inverter Configuration</h3>
 
 <p>
   The basic bridge structure consists of three legs. Each leg is composed of
@@ -46,7 +46,7 @@
 <div style="text-align: center;">
   <img src="image46.png" alt="Three-phase bridge configuration" style="width: 100%; height: auto;">
 </div>
-<h4>Full-Wave Control</h4>
+<h3>Full-Wave Control</h3>
 
 <p>
   In this technique, the switches <strong>(K1, K3)</strong> and
@@ -100,7 +100,7 @@
   The harmonic content can also be controlled by adjusting the angle
   <strong>&alpha;</strong>.
 </p>
-<h4>Sinusoidal-Triangular PWM Control Techniques</h4>
+<h3>Sinusoidal-Triangular PWM Control Techniques</h3>
 
 <p>
   These control techniques are based on the <strong>comparison</strong> of a
@@ -119,7 +119,7 @@
 <div style="text-align: center;">
   <img src="image24.png" alt="Sinusoidal-triangular PWM control waveform" style="width: 100%; height: auto;">
 </div>
-<h3> Experimental Setup</h3>
+<h2> Experimental Setup</h2>
 <table>
   <thead>
     <tr>
