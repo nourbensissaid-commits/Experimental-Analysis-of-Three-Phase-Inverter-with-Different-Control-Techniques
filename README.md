@@ -35,6 +35,91 @@
     <strong>performance of the inverter system</strong>.
   </li>
 </ul>
+<h3>Theoretical Background</h3>
+<h4>Three-Phase Inverter Configuration</h4>
+
+<p>
+  The basic bridge structure consists of three legs. Each leg is composed of
+  two switches that are reversible in both current and voltage:
+</p>
+
+<div style="text-align: center;">
+  <img src="image46.png" alt="Three-phase bridge configuration" style="width: 100%; height: auto;">
+</div>
+<h4>Full-Wave Control</h4>
+
+<p>
+  In this technique, the switches <strong>(K1, K3)</strong> and
+  <strong>(K2, K4)</strong> are controlled simultaneously to obtain
+  sequences 1 and 2. The duration of each sequence is
+  <strong>T/2</strong>.
+</p>
+
+<p>
+  The output voltage <strong>v<sub>o</sub></strong> is a waveform with a
+  single pulse during each half-cycle.
+</p>
+
+<p>
+  For an inductive load, the output current <strong>i<sub>o</sub></strong>
+  varies between <strong>I<sub>min</sub></strong> and
+  <strong>I<sub>max</sub></strong>.
+</p>
+
+<p>
+  The RMS value of the output voltage is given by:
+  <p>
+  \[
+  V_{\mathrm{rms}} = V_{\mathrm{dc}}
+  \]
+</p>
+</p>
+<div style="text -align: center;">
+  <img src="image61.png" alt="Full-wave control waveform" style="width: 100%; height: auto;">
+</div>
+<p>For a square-wave output voltage, only odd harmonics are present.</p>
+
+<h4>Phase-Shifted Control</h4>
+
+<p>
+  In full-wave control, the RMS voltage across the load is constant and equal to
+  <strong>V<sub>dc</sub></strong>. To regulate the output voltage, phase-shifted control is used.
+</p>
+
+<p>
+  This control strategy introduces zero-voltage intervals across the load. The RMS value
+  of the output voltage is given by:
+</p>
+
+<div style="text-align: center;">
+  <img src="image37.png" alt="Phase-shifted control waveform" style="width: 100%; height: auto;">
+</div>
+<p>
+  In particular, the <strong>amplitude of the fundamental frequency (n = 1)</strong>
+  can be controlled by adjusting the <strong>phase-shift angle &alpha;</strong>.
+  The harmonic content can also be controlled by adjusting the angle
+  <strong>&alpha;</strong>.
+</p>
+<h4>Sinusoidal-Triangular PWM Control Techniques</h4>
+
+<p>
+  These control techniques are based on the <strong>comparison</strong> of a
+  sinusoidal waveform, called the <strong>modulating wave</strong> or
+  <strong>reference</strong>, with a high-frequency triangular waveform called
+  the <strong>carrier</strong>.
+</p>
+
+<p>
+  <strong>Pulse-width modulation (PWM)</strong> reduces the
+  <strong>total harmonic distortion (THD)</strong> of the load current.
+  Although the unfiltered PWM output voltage has a relatively high THD,
+  its harmonics are shifted to much higher frequencies,
+  <strong>making them easier to filter</strong>.
+</p>
+<div style="text-align: center;">
+  <img src="image24.png" alt="Sinusoidal-triangular PWM control waveform" style="width: 100%; height: auto;">
+</div>
+<h3> Experimental Setup</h3>
 <table>
   <thead>
     <tr>
