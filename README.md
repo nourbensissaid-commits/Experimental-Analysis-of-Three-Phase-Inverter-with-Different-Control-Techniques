@@ -79,7 +79,7 @@
 </div>
 <p>For a square-wave output voltage, only odd harmonics are present.</p>
 
-<h4>Phase-Shifted Control</h4>
+<h3>Phase-Shifted Control</h3>
 
 <p>
   In full-wave control, the RMS voltage across the load is constant and equal to
@@ -157,6 +157,84 @@
       <td>
         <img src="image83.jpg" alt="Oscilloscope" width="150">
       </td>
+    </tr>
+  </tbody>
+</table>
+<table style="width: 100%; border-collapse: collapse; text-align: center;">
+  <thead>
+    <tr>
+      <th style="border: 1px solid #ccc; padding: 8px;">Parameter</th>
+      <th style="border: 1px solid #ccc; padding: 8px;">Result</th>
+    </tr>
+  </thead>
+  <h3>Full Wave Control </h3>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 8px;">
+        Output voltage waveform
+        <br>
+        <img src="image55.png" alt="Output voltage waveform" style="width: 100%; height: auto;">
+      </td>
+      <td style="border: 1px solid #ccc; padding: 8px;">135 V</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 8px;">
+        RMS value of the output voltage
+      </td>
+      <td style="border: 1px solid #ccc; padding: 8px;">135 V</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 8px;">
+        Load current waveform
+        <br>
+        <img src="image82.png" alt="Load current waveform" style="width: 100%; height: auto;">
+      </td>
+      <td style="border: 1px solid #ccc; padding: 8px;">1.5 A</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 8px;">
+        RMS value of the load current
+      </td>
+      <td style="border: 1px solid #ccc; padding: 8px;">1.5 A</td>
+    </tr>
+  </tbody>
+</table>
+<h3>Phase-Shifted Control</h3>
+<table style="width: 100%; border-collapse: collapse; text-align: center;">
+  <thead>
+    <tr>
+      <th style="border: 1px solid #ccc; padding: 8px;">Parameter</th>
+      <th style="border: 1px solid #ccc; padding: 8px;">Result</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 8px;">
+        Output voltage waveform
+        <br>
+        <img src="image97.png" alt="Output voltage waveform" style="width: 100%; height: auto;">
+      </td>
+      <td style="border: 1px solid #ccc; padding: 8px;">115 V</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 8px;">
+        RMS value of the output voltage
+      </td>
+      <td style="border: 1px solid #ccc; padding: 8px;">115 V</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 8px;">
+        Load current waveform
+        <br>
+        <img src="image79.png" alt="Load current waveform" style="width: 100%; height: auto;">
+      </td>
+      <td style="border: 1px solid #ccc; padding: 8px;">1.3 A</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 8px;">
+        RMS value of the load current
+      </td>
+      <td style="border: 1px solid #ccc; padding: 8px;">1.3 A</td>
     </tr>
   </tbody>
 </table>
