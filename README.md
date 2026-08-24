@@ -238,3 +238,67 @@
     </tr>
   </tbody>
 </table>
+<h3>Two level SVPWM</h2>
+
+<table style="width: 100%; border-collapse: collapse; text-align: center;">
+  <thead>
+    <tr>
+      <th style="border: 1px solid #ccc; padding: 8px;">Parameter</th>
+      <th style="border: 1px solid #ccc; padding: 8px;">Result</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 8px;">
+        Output voltage, load current, and harmonic spectrum
+        <br>
+        <img src="image48.png" alt="Output voltage, load current, and harmonic spectrum" style="width: 100%; height: auto;">
+      </td>
+      <td style="border: 1px solid #ccc; padding: 8px;"></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 8px;">
+        RMS value of the output voltage (V)
+      </td>
+      <td style="border: 1px solid #ccc; padding: 8px;">180</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 8px;">
+        RMS value of the load current (A)
+      </td>
+      <td style="border: 1px solid #ccc; padding: 8px;">0.6</td>
+    </tr>
+  </tbody>
+</table>
+<h3>Three level SVPWM</h2>
+
+<table style="width: 100%; border-collapse: collapse; text-align: center;">
+  <thead>
+    <tr>
+      <th style="border: 1px solid #ccc; padding: 8px;">Parameter</th>
+      <th style="border: 1px solid #ccc; padding: 8px;">Result</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 8px;">
+        Output voltage and load current waveforms
+        <br>
+        <img src="image67.png" alt="Output voltage, load current waveforms and harmonic spectrum" style="width: 100%; height: auto;">
+      </td>
+      <td style="border: 1px solid #ccc; padding: 8px;"></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 8px;">
+        RMS value of the output voltage
+      </td>
+      <td style="border: 1px solid #ccc; padding: 8px;">145 V</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 8px;">
+        RMS value of the load current
+      </td>
+      <td style="border: 1px solid #ccc; padding: 8px;">0.9 A</td>
+    </tr>
+  </tbody>
+</table>
